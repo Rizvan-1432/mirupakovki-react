@@ -1,0 +1,192 @@
+.details-first-block {
+  width: 1366px;
+  margin: auto;
+  padding-left: 111px;
+}
+.details-first-left {
+  width: 80px;
+  height: 80px;
+}
+.details-first-left img {
+  padding-top: 40px;
+}
+.details-big-img {
+  display: flex;
+  width: 514px;
+  height: 514px;
+  background-color: #f3f3f3;
+  margin-left: 100px;
+  margin-top: -50px;
+}
+.details-big-img1 img {
+  width: 450px;
+  height: 450px;
+  text-align: center;
+  margin: 32px 32px 32px 32px;
+}
+.header-second {
+  /* background-color: blue; */
+  width: 501px;
+  margin-left: 30px;
+}
+.sub-header-second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 499.996px;
+  height: 42px;
+}
+.sub-header-second h2 {
+  color: #231f20;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.sub-header-second img {
+  width: 22.876px;
+  height: 21.999px;
+  flex-shrink: 0;
+}
+.price-second-header h2 {
+  color: #e2342d;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.black-gold-apollo {
+  display: flex;
+  gap: 15px;
+}
+.black {
+  border: 1px solid #707070;
+  width: 76px;
+  height: 40px;
+  margin-top: 30px;
+}
+.black p {
+  text-align: center;
+  padding-top: 10.93px;
+  color: #222;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.gold {
+  border: 1px solid #707070;
+  width: 69px;
+  height: 40px;
+  margin-top: 30px;
+}
+.gold p {
+  text-align: center;
+  padding-top: 10.93px;
+  color: #222;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.apollo {
+  border: 1px solid #707070;
+  width: 89px;
+  height: 40px;
+  margin-top: 30px;
+}
+.apollo p {
+  text-align: center;
+  padding-top: 10.93px;
+  color: #222;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btn-add-cart {
+  background-color: #004197;
+  width: 500px;
+  height: 45px;
+  margin-top: 35px;
+  text-align: center;
+  cursor: pointer;
+}
+.wrapp-text {
+  width: 500px;
+  margin-top: 25px;
+}
+.wrapp-text p {
+  color: #222;
+  text-align: justify;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; 
+}
+.tab {
+  width: 500px;
+  margin-top: 20px;
+  text-align: center;
+  color: #231f20;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.tab input,
+.tab-content {
+  display: none;
+}
+.tab {
+  font: 0.8rem/1.2 Arial, sans-serif; /* Параметры шрифта */
+  border: 1px solid #e9eaec; /* Параметры рамки */
+  border-radius: 3px; /* Скругляем уголки */
+  color: #848994; /* Цвет текста */
+  margin-bottom: 10px; /* Расстояние между пунктами */
+}
+.tab-title {
+  padding: 10px; /* Поля вокруг текста */
+  display: block; /* Блочный элемент */
+  text-transform: uppercase; /* Все буквы заглавные */
+  font-weight: bold; /* Жирное начертание */
+  cursor: pointer; /* Вид курсора */
+  color: #231f20;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.tab-title::after {
+  content: "+"; /* Выводим плюс */
+  float: right; /* Размещаем по правому краю */
+}
+.tab-content {
+  padding: 10px 20px; /* Поля вокруг текста */
+}
+.tab :checked + .tab-title {
+  background-color: #50a2de; /* Цвет фона */
+  border-radius: 3px 3px 0 0; /* Скругляем уголки */
+  color: #fff; /* Цвет текста */
+}
+.tab :checked + .tab-title::after {
+  content: "−"; /* Выводим минус */
+}
+.tab :checked ~ .tab-content {
+  display: block; /* Показываем содержимое */
+}
+hr {
+  width: 500px;
+  height: 0px;
+  stroke-width: 1px;
+  stroke: rgba(35, 31, 32, 0.1);
+  margin-top: 30px;
+}

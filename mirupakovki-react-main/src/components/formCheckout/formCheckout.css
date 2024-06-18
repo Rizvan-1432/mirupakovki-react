@@ -1,0 +1,6 @@
+.form-checkout {
+    width: 610px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

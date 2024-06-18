@@ -1,0 +1,113 @@
+/* home-product-second */
+.home-second-class {
+  width: 390px;
+  height: 537px;
+  background-color: #F3F3F3;
+}
+
+.home-second-class .card-img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 390px;
+  height: 537px;
+  background-color: #f3f3f3;
+}
+
+.home-second-class .card-img img {
+  width: 320px;
+  height: 320px;
+}
+
+.home-second-class .card-img .promotion {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 147px;
+  height: 31px;
+  background-color: #e2342d;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.home-second-class .card-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 22px;
+  color: #1e1e20;
+  font-family: Poppins;
+}
+
+.home-second-class .card-description h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* home-product-third */
+.home-third-class .card-img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 440px;
+  background-color: #f3f3f3;
+}
+
+.home-third-class .card-img .promotion {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 147px;
+  height: 31px;
+  background-color: #e2342d;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.home-third-class .card-img img {
+  width: 280px;
+  height: 280px;
+}
+
+.home-third-class .card-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 22px;
+  color: #1e1e20;
+  font-family: Poppins;
+}
+
+.home-third-class .card-description h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.home-third-class .price-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #1e1e20;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.home-third-class .price-old {
+  text-decoration: line-through;
+}

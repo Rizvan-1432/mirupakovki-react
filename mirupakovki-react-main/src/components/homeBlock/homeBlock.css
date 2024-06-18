@@ -1,0 +1,57 @@
+.home-block {
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+}
+
+.home-block-descr .home-block-text {
+  width: 670px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-block-descr h2 {
+  color: #4a4b4d;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+}
+.home-block-descr h2 span {
+  color: #e2342d;
+}
+
+.home-block-cards {
+  display: flex;
+  position: relative;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+/* Scroll */
+
+.arrow-scroll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  right: -5%;
+  width: 64px;
+  height: 64px;
+  background-color: #fff;
+  box-shadow: 1px 1px 20px #dddddd;
+  border-radius: 50%;
+}
+
+/* fourth-block */
+.fourth-block {
+  flex-direction: row-reverse;
+}
+
+.left {
+  top: 35%;
+  left: -5%;
+  transform: scale(-1);
+}

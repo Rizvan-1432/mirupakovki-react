@@ -1,0 +1,30 @@
+.home-first-block {
+  display: flex;
+  align-items: center;
+  gap: 135px;
+  width: 1212px;
+  height: 614px;
+}
+
+.home-first-left h1 {
+  color: #3a408c;
+  font-family: Poppins;
+  font-size: 54px;
+  font-weight: 700;
+  width: 580px;
+}
+
+.home-first-left p {
+  color: #707070;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.home-first-left p span {
+  font-weight: 700;
+}
+
+.home-first-button {
+  margin-top: 65px;
+}

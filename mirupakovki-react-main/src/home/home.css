@@ -1,0 +1,12 @@
+.wrapper-home {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+
+.second-home,
+.third-home,
+.fourth-home {
+  display: flex;
+  justify-content: center;
+}

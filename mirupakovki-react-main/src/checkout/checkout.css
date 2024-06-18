@@ -1,0 +1,31 @@
+.checkout {
+  width: 1268px;
+  margin: 25px auto 95px;
+}
+
+.checkout-wrapper {
+  display: flex;
+  gap: 60px;
+}
+
+.checkout-wrapper h2 {
+  color: #222;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.checkout-forms h3 {
+  color: #222;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px; 
+}
+
+.button-check {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}

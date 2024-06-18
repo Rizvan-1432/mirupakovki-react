@@ -1,0 +1,60 @@
+@font-face {
+  font-family: Monotype Corsiva;
+  src: url(../../fonts/Monotype\ Corsiva\ Regular.ttf);
+}
+
+header {
+  height: 155px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper-header {
+  width: 1225px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper-header .nav ul {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header li a {
+  color: #222;
+  text-decoration: none;
+}
+
+header a h2 {
+  color: #e2342d;
+  text-align: center;
+  font-family: Monotype Corsiva;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+header h2 span {
+  color: #004197;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}

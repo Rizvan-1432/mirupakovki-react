@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat&display=swap");
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 1366px;
+  height: 390px;
+}
+.macc {
+  color: #e2342d;
+  font-family: Monotype Corsiva;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 30px;
+  padding-left: 97.58px;
+}
+.essent {
+  color: #004197;
+  font-family: Monotype Corsiva;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 97.58px;
+}
+.links ul {
+  list-style-type: none;
+  margin-top: 38px;
+}
+.links_1 ul {
+  list-style-type: none;
+  margin-top: 40px;
+}
+.links li {
+  color: #222;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 21px;
+}
+.links_1 li {
+  color: #222;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 21px;
+}
+.links a {
+  text-decoration: none;
+  color: #222;
+}
+.links a:before {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #492059;
+  transform: translateX(-100%);
+}
+.links a:hover:before {
+  transform: translateX(0);
+}
+.links_1 a {
+  text-decoration: none;
+  color: #222;
+}
+.block_text {
+  width: 428px;
+  height: 218.505px;
+}
+.text p {
+  color: #222;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  padding-top: 40px;
+}
+.mail input {
+  background-color: transparent;
+  width: 400px;
+  height: 50px;
+  margin-top: 40px;
+  border: none;
+  color: #222;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+}
+input:focus {
+  outline: none;
+}
+.img {
+  width: 27.5px;
+  height: 22px;
+  padding-top: 123px;
+}
+.footer-social{
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}

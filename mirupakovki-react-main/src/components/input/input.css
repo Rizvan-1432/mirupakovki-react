@@ -1,0 +1,18 @@
+.input {
+  outline: 1px solid #c4c4c4;
+  padding: 0 20px;
+  height: 44px;
+  color: #222;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  border: 0;
+}
+
+.small {
+  width: 255px;
+}
+
+.big {
+  width: 610px;
+}
